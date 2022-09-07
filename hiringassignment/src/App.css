@@ -1,0 +1,226 @@
+.heading {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.time{
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.head{
+  margin-left: 60px;
+  font-size: 18px;
+  display: inline-block;
+}
+.cake{
+  margin-left: 620px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.rate{
+  margin-left: 570px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.rates{
+  margin-left: 500px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.textbtn{
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 90px;
+  height: 35px;
+  border-color: #ccc;
+  font-size: 18px;
+ font-weight: 800;
+ text-align: center;
+ border-color: rgba(204, 204, 204, 0.038);
+ background-color: rgba(235, 227, 227, 0.505);
+}
+.timebtnone{
+  margin-left: 20px;
+  outline: none;
+  border-radius: 40px;
+  width: 100px;
+  height: 38px;
+  border-color: rgba(204, 204, 204, 0.038);
+  font-size: 18px;
+ font-weight: bolder;
+ text-align: center;
+ background-color: rgba(235, 223, 90, 0.947);
+}
+.timebtn{
+  margin-left: 50px;
+  outline: none;
+  border-radius: 40px;
+  width: 100px;
+  height: 38px;
+  color: grey;
+  border-color: rgba(204, 204, 204, 0.038);
+  font-size: 18px;
+ font-weight: bolder;
+ text-align: center;
+ background-color: rgba(235, 227, 227, 0.505);
+}
+.textfield{
+  margin-top: 10px;
+ border-radius: 15px;
+ border-color: #ccc;
+ width: 700px;
+ height: 70px;
+ border-color: rgba(204, 204, 204, 0.038);
+ margin-left: 20px;
+ font-size: 30px;
+ outline: none;
+ font-weight: 800;
+ text-align: right;
+ background-color: rgba(235, 227, 227, 0.505);
+}
+.images{
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+}
+.header{
+  margin-left: 500px;
+  display: inline-block;
+  font-size: 18px;
+}
+.text{
+  color: rgb(193, 191, 191);
+  font-weight: 800;
+}
+.switch {
+  position: relative;
+  left: 610px;
+  display: inline-block;
+  width: 38px;
+  height: 20px;
+}
+.switchtwo{
+  position: relative;
+  left: 425px;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+.blockthree{
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slidertwo {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 5px;
+  bottom: 2px;
+  top: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slidertwo:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 5px;
+  bottom: 2px;
+  top: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slidertwo {
+  background-color: #eec707;
+}
+input:focus + .slidertwo {
+  box-shadow: 0 0 1px #e6d407;
+}
+input:checked + .slider {
+  background-color: #eec707;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #e6d407;
+}
+input:checked + .slidertwo:before {
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+.slidertwo.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.slidertwo.round:before {
+  border-radius: 50%;
+}
+.tiers{
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.btmtext{
+margin-left: 300px;
+}
+.ptext{
+  margin-left: 20px;
+}
+.apy{
+  font-size: 16px;
+  font-weight: 800;
+  margin-left: 20px;
+  display: inline-block;
+}
+.perc{
+  margin-left: 620px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #e6d407;
+}
